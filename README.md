@@ -1,5 +1,5 @@
 # time-remaining
-A small typescript package that gives an estimate of time as a function of percentage complete
+A small typescript package that gives an estimate of time as a function of percentage complete. This package has 0 dependencies and should only be around 40-60kb.
 
 ## Install
 ```bash
