@@ -1,6 +1,6 @@
 {
 	"name": "@franklinharvey/time-remaining",
-	"version": "1.0.0-rc.7",
+	"version": "1.0.0",
 	"description": "A small typescript package that gives an estimate of time as a function of percentage complete",
 	"scripts": {
 		"prepublish": "tsc",
