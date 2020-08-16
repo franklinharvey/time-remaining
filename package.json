@@ -1,6 +1,6 @@
 {
-	"name": "time-remaining",
-	"version": "1.0.0",
+	"name": "@franklinharvey/time-remaining",
+	"version": "1.0.0-rc.1",
 	"description": "A small typescript package that gives an estimate of time as a function of percentage complete",
 	"scripts": {
 		"prepublish": "tsc",
@@ -11,7 +11,14 @@
 	},
 	"keywords": [],
 	"author": "",
-	"license": "ISC",
+	"license": "MIT",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/franklinharvey/time-remaining"
+	},
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"devDependencies": {
