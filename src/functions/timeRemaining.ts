@@ -11,9 +11,9 @@
  * const startDate = new Date()
  * for (let i = 0; i < tasks.length; i++) {
  * 		const currentDate = new Date()
- * 		const timeRemain = timeRemaining(i, tasks.length, startDate, currentDate)
- * 		console.log(`Seconds remaining: ${timeRemain.toFixed(1)}`)
- *		console.log(`Estimated completion: ${new Date(currentDate.valueOf() + timeRemain)}`);
+ * 		const endDate = timeRemaining(i, tasks.length, startDate, currentDate)
+ * 		console.log(`Seconds remaining: ${endDate.getSeconds()}`)
+ *		console.log(`Estimated completion: ${endDate.toLocaleString()}`);
  * }
  * ```
  */
