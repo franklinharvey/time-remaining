@@ -1,0 +1,19 @@
+{
+	"moduleFileExtensions": ["js", "json", "ts"],
+	"rootDir": "src",
+	"testRegex": ".spec.ts$",
+	"testPathIgnorePatterns": ["/integration/"],
+	"transform": {
+		"^.+\\.(t|j)s$": "ts-jest"
+	},
+	"coverageDirectory": "../coverage",
+	"testEnvironment": "node",
+	"coverageThreshold": {
+		"global": {
+			"branches": 100,
+			"functions": 100,
+			"lines": 100,
+			"statements": 100
+		}
+	}
+}
